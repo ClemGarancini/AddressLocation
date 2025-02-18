@@ -7,6 +7,12 @@ git clone https://github.com/ClemGarancini/AddressLocation
 cd AddressLocation
 ```
 
+## Create the virtual environment
+
+```sh
+  virtualenv address_location
+```
+
 ## Activate the virtual environment:
 
 - **On macOS/Linux:**
@@ -17,6 +23,12 @@ cd AddressLocation
   ```sh
   address_location\Scripts\activate
   ```
+
+## Install dependencies
+
+```sh
+  pip install -r requirements.txt
+```
 
 ## Running the Python Script
 
